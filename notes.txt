@@ -1,0 +1,29 @@
+建仓与配置
+cd path
+git init name_new
+cd name_new
+git config --local user.name 'localuser1'
+git config --local user.email 'xx@xx.com'
+git config --local --list
+cp path_afile path_aim
+git status
+git add afile
+git commit -m'add afile'
+git log
+--------
+#清楚暂存区
+git reset --hard
+#
+git log→当前分支
+git log --all --graph →所有分支
+
+git log --oneline -n2
+#不经过暂存区直接放进仓库里
+git commit -am'log'
+#分支
+git branch -v
+git checkout -b ch1
+git branch -av 
+#帮助文档help
+git help (--web) log
+--------
