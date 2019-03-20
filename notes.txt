@@ -11,7 +11,7 @@ git add afile
 git commit -m'add afile'
 git log
 --------
-#清楚暂存区
+#清除暂存区
 git reset --hard
 #
 git log→当前分支
@@ -23,7 +23,22 @@ git commit -am'log'
 #分支
 git branch -v
 git checkout -b ch1
+git checkout master → 切换分支
 git branch -av 
 #帮助文档help
 git help (--web) log
 --------
+#vi编辑模式（cat 查看模式）
+i → 进入编辑模式
+ESC /:wq! → 退出并保存
+ ESC /:q! → 退出不保存
+/hello → 查找“hello”
+---------
+#查看git文件内容
+git cat-file -p OBJ
+#输出到>指定文件（没有就创建）>>→追加
+echo "str." > readme
+#显示所有文件
+.git/objects -type f
+#分离头指针
+git checkout a_commit
