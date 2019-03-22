@@ -93,3 +93,4 @@ git remote -v
 git remote add 起个远端备份名 file://远端备份git地址
 git push this_remote_name →只能push当前分支
 git push --set-upstream this_remote_name 分支1 分支2 →只用第一次操作
+git remote remove <name> 删除remote
