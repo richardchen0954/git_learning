@@ -1,3 +1,5 @@
+changed by local1
+真真真真真真真真真真
 秀花嚥塘崔
 cd path
 git init name_new
